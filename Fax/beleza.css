@@ -112,7 +112,7 @@
    }
   
    .site-title{
-     font-size: 2em;
+     font-size: 3em;
      font-family: 'Grenze Gotisch', cursive;
      color: whitesmoke;
     }
@@ -180,7 +180,7 @@
         /*clip=path*/
       }
     }
-     
+    
     /*.portfolio .grid {
       display: grid;
       gap: 2em;
@@ -221,6 +221,23 @@
       transition: transform 500ms; /*rotate*/
     }
   
+    @media (min-width: 500px){
+        .img-portfolio{
+          height: 300px;
+          width: 300px;
+          
+          /*clip=path*/
+        }
+    }
+
+    @media (min-width: 800px){
+        .img-portfolio{
+          height: 600px;
+          width: 600px;
+          
+          /*clip=path*/
+        }
+      }
     /*.flip-card{
       perspective: 100%;
     }
